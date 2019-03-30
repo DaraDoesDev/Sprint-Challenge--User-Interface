@@ -144,3 +144,69 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+    display: flex;
+    align-items: baseline; 
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+header img {
+    margin-bottom: 35px;
+}
+
+.top-content {
+    margin-top: 25px;
+}
+
+
+.boxes .box.teal {
+    background-color: teal;
+}
+
+.boxes .box.gold {
+    background-color: gold;
+}
+
+.boxes .box.cadetblue {
+    background-color: cadetblue;
+}
+
+.boxes .box.coral {
+    background-color: coral;
+}
+
+.boxes .box.crimson {
+    background-color: crimson;
+}
+
+.boxes .box.forestgreen{
+    background-color: forestgreen;
+}
+
+.boxes .box.darkorchid {
+    background-color: darkorchid;
+}
+
+.boxes .box.hotpink {
+    background-color: thotpink;
+}
+
+.boxes .box.indigo {
+    background-color: indigo;
+}
+
+.boxes .box.dodgerblue {
+    background-color: dodgerblue;
+}
