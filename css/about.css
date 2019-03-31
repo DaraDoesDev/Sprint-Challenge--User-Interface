@@ -166,7 +166,7 @@ header img {
     margin-bottom: 35px;
 }
 
-.top-content {
+.mainContent {
     margin-top: 25px;
 }
 
@@ -176,27 +176,29 @@ header img {
 .topAbout {
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 hr {
     border: 1px dashed black;
 }
 
-.topContent {
-    margin-top: 30px;
-    margin-bottom: 20px;
+.mainContent {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
 }
 
-.topContent.topLeftWords {
-    margin-top: 20px;
-    margin-bottom: 20px;
+.mainContent .row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.topContent.topRightWords {
-    margin-top: 20px;
-    margin-bottom: 20px;
+.mainContent .box {
+    margin-left: 20px;
 }
 
 h2 {
@@ -206,43 +208,30 @@ h2 {
 button {
     border: 2px solid black;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 7px 18px;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.middleContent {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: space-around;
+#rowSpace {
+    margin-top: 40px;
 }
 
-.middleContent.middleLeftWords {
+.firstRow {
+    width: 96%;
+    margin-right: 24px;
+}
+
+.secondRow {
+    width: 96%;
+    margin-right: 24px;
+}
+
+.bottomPart {
     margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.middleContent.middleRightWords {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.horizontalDashedLine {
-    display: flex;
-}
-.horizontalDashedLine.leftDash {
-    border-bottom: 1px dashed black;
-    width: 380px;   
-}
-
-.horizontal.rightDash {
-    border-bottom: 1px dashed black;
-    width: 380px;
-}
-
-.bottomContent {
-    margin-top: 20px;
-    margin-bottom: 30px;
+    padding-top: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 footer {
