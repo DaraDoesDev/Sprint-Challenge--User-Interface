@@ -166,47 +166,74 @@ header img {
     margin-bottom: 35px;
 }
 
-.top-content {
+.mainContent {
     margin-top: 25px;
 }
 
 
-.boxes .box.teal {
-    background-color: teal;
+/* my code starts here */
+
+.topAbout {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
-.boxes .box.gold {
-    background-color: gold;
+hr {
+    border: 1px dashed black;
 }
 
-.boxes .box.cadetblue {
-    background-color: cadetblue;
+.mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
 }
 
-.boxes .box.coral {
-    background-color: coral;
+.mainContent .row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.boxes .box.crimson {
-    background-color: crimson;
+.mainContent .box {
+    margin-left: 20px;
 }
 
-.boxes .box.forestgreen{
-    background-color: forestgreen;
+h2 {
+    margin-top: 10px;
 }
 
-.boxes .box.darkorchid {
-    background-color: darkorchid;
+button {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.boxes .box.hotpink {
-    background-color: thotpink;
+#rowSpace {
+    margin-top: 40px;
 }
 
-.boxes .box.indigo {
-    background-color: indigo;
+.firstRow {
+    width: 96%;
+    margin-right: 24px;
 }
 
-.boxes .box.dodgerblue {
-    background-color: dodgerblue;
+.secondRow {
+    width: 96%;
+    margin-right: 24px;
+}
+
+.bottomPart {
+    margin-top: 20px;
+    padding-top: 16px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+footer {
+    margin-top: 20px;
 }
